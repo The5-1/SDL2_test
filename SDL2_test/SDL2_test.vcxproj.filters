@@ -13,5 +13,65 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{176dfe01-51c1-41b2-a74d-5c8b849a4e32}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\GL_libraries_test\Epos\Source\include_math.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GL_libraries_test\Epos\Source\include_containers.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GL_libraries_test\Epos\Source\include_default.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GL_libraries_test\Epos\Source\include_GL.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GL_libraries_test\Epos\Source\include_GUI.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GL_libraries_test\Epos\Source\include_IO.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include_containers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include_default.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include_GL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include_GUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include_IO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include_math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glad\glad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Textures\crimsonSlayer.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\hello_world.bmp">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
   </ItemGroup>
 </Project>

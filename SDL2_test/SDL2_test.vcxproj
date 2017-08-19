@@ -64,6 +64,7 @@
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\The5_OpenGL_SDL2.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -111,6 +112,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="glad\glad.c" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\GL_libraries_test\Epos\Source\include_containers.h" />
+    <ClInclude Include="..\..\GL_libraries_test\Epos\Source\include_default.h" />
+    <ClInclude Include="..\..\GL_libraries_test\Epos\Source\include_GL.h" />
+    <ClInclude Include="..\..\GL_libraries_test\Epos\Source\include_GUI.h" />
+    <ClInclude Include="..\..\GL_libraries_test\Epos\Source\include_IO.h" />
+    <ClInclude Include="..\..\GL_libraries_test\Epos\Source\include_math.h" />
+    <ClInclude Include="glad\glad.h" />
+    <ClInclude Include="include_containers.h" />
+    <ClInclude Include="include_default.h" />
+    <ClInclude Include="include_GL.h" />
+    <ClInclude Include="include_GUI.h" />
+    <ClInclude Include="include_IO.h" />
+    <ClInclude Include="include_math.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Textures\crimsonSlayer.png" />
+    <Image Include="Assets\Textures\hello_world.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
